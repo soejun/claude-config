@@ -1,16 +1,24 @@
 {
   "model": "opus",
+  "enabledPlugins": {
+    "andrej-karpathy-skills@karpathy-skills": true,
+    "context-mode@context-mode": true
+  },
   "extraKnownMarketplaces": {
     "karpathy-skills": {
       "source": {
         "source": "github",
         "repo": "forrestchang/andrej-karpathy-skills"
       }
+    },
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode",
+        "ref": "release"
+      }
     }
   },
-  "tui": "fullscreen",
-  "enabledPlugins": {
-    "andrej-karpathy-skills@karpathy-skills": true
-  },
-  "outputStyle": "ASD-STE100 Responses"
+  "outputStyle": "ASD-STE100 Responses",
+  "tui": "fullscreen"
 }
