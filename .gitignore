@@ -1,0 +1,18 @@
+# Allowlist: ignore everything, then track only hand-written config.
+/*
+
+!/.gitignore
+!/.gitmodules
+!/CLAUDE.md
+!/settings.json
+!/keybindings.json
+!/output-styles/
+!/agents/
+!/commands/
+!/hooks/
+
+# Skills: own skills only. skills/synced/ comes from account sync.
+!/skills/
+/skills/*
+!/skills/commit/
+!/skills/asd-ste100/
